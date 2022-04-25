@@ -18,11 +18,10 @@ namespace MovieDatabase
                 
 			for (int i = 0; i <= movies.Count -1;  i++)
             {
-				if ( category == "Drama")
+				if (category == "Drama")
 				{
 					if (movies[i].MovieCategory == category)
 					{
-						
 						Console.WriteLine(movies[i].MovieTitle);
 					}
 				}
@@ -30,7 +29,6 @@ namespace MovieDatabase
 				{
 					if (movies[i].MovieCategory == "Animated")
 					{
-						
 						Console.WriteLine(movies[i].MovieTitle);
 					}
 				}
@@ -38,14 +36,12 @@ namespace MovieDatabase
                 {
 					if (movies[i].MovieCategory == "Horror")
 					{
-
 						Console.WriteLine(movies[i].MovieTitle);
 					}
                 }
 				else if (category == "Sci-Fi")
                 {	if (movies[i].MovieCategory == "Sci-Fi")
 					{
-
 						Console.WriteLine(movies[i].MovieTitle);
 					}
                 }
