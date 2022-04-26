@@ -10,14 +10,14 @@
 			Movie Shrek = new Movie("Shrek", "Animated");
 			Movie Scream = new Movie("Scream", "Horror");
 			Movie ShawShankRedemption = new Movie("The Shaw Shank Redemption", "Drama");
-			Movie TheFifthElement = new Movie("The Fifth Element", "Sci-Fi");
+			Movie FifthElement = new Movie("The Fifth Element", "Sci-Fi");
 			Movie Aladin = new Movie("Aladin", "Animated");
 			Movie Saw = new Movie("Saw", "Horror");
-			Movie TheWolfOfWallStreet = new Movie("The Wolf of Wall Street", "Drama");
+			Movie WolfOfWallStreet = new Movie("The Wolf of Wall Street", "Drama");
 			Movie Inception = new Movie("Inception", "Sci-Fi");
 			Movie SouthPark = new Movie("South Park Bigger Longer And Uncut", "Animated");
 			Movie ForrestGump = new Movie("Forrest Gump", "Drama");
-			List<Movie> ourMovies = new List<Movie>() { Aladin, ForrestGump, Inception, Saw, Scream, ShawShankRedemption, Shrek, SouthPark, TheFifthElement, TheWolfOfWallStreet  };
+			List<Movie> ourMovies = new List<Movie>() { Aladin, FifthElement, ForrestGump, Inception, Saw, Scream, ShawShankRedemption, Shrek, SouthPark, WolfOfWallStreet };
 
 			while (runAgain)
 			{
