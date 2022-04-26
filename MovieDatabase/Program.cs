@@ -6,7 +6,7 @@
 		public static void Main()
 		{
 			Helper h = new Helper();
-			Movie m = new Movie("null", "null");
+			Movie m = new Movie("", "");
 			Movie Shrek = new Movie("Shrek", "Animated");
 			Movie Scream = new Movie("Scream", "Horror");
 			Movie ShawShankRedemption = new Movie("The Shaw Shank Redemption", "Drama");

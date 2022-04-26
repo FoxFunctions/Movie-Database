@@ -55,6 +55,7 @@ namespace MovieDatabase
 			}
 			else if (input == "n")
 			{
+                Console.WriteLine("Goodbye.");
 				return false;
 			}
 			else
