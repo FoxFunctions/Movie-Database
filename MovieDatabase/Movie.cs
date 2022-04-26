@@ -1,5 +1,4 @@
-﻿using System;
-namespace MovieDatabase
+﻿namespace MovieDatabase
 {
 	public class Movie
 	{
@@ -40,6 +39,7 @@ namespace MovieDatabase
 					}
                 }
 				else if (category == "Sci-Fi")
+
                 {	if (movies[i].MovieCategory == "Sci-Fi")
 					{
 						Console.WriteLine(movies[i].MovieTitle);
